@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<title>NEFT BANKING</title>
+
+
+
+<style>
+header,footer{
+   
+    color:#FFFFFF;
+    background-color:#003300;
+    clear: left;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Neft Transfer</h1>
+   
+</header>
+
+
+<fieldset>
+ 
+  <h3>select the account from which you want to transfer</h3>
+  
+
+<table>
+  <form>
+    <tr>
+      <td width="144">Account No*</td>
+      <td width="148">Account Type</td>
+      <td width="151">Branch*</td>
+	  <td width="151">Balance*</td>
+    </tr>
+    <tr>
+      <td><input name="text" type="text" /></td>
+      <td>
+	  <select>
+	  <option value="select">-select-</option>
+	  <option value="savings account">savings account</option>
+	  <option value="loan account">loan account</option>
+	  <option value="OD">OD</option>
+	  <option value="current account">current account</option>
+	  </select>
+	  </td>
+      <td><input name="text2" type="text" /></td>
+	   <td><input name="text2" type="text" /></td>
+    </tr>
+  </form>
+  </table>
+  
+  
+  <br>
+  <table>
+  <form>
+<tr>
+<td>Selected Account Number<input name="text2" type="text" /></td>
+</tr>
+<tr>
+<td>Amount*<input name="text2" type="text" />INR</td>
+</tr>
+<tr>
+<td>Remarks<input name="text2" type="text" />
+</td>
+</tr>
+</form>
+</table>
+
+<br>
+
+<table>
+
+<tr><h3>Select the Beneficiary account</h3></tr>
+<table>
+  <form>
+    <tr>
+      <td width="144">Account No*</td>
+      <td width="148">Beneficiary Name*</td>
+      <td width="151">Branch*</td>
+	  <td width="151">Bank*</td>
+	  <td width="151">Limit*</td>
+    </tr>
+    <tr>
+      <td><input name="text" type="text" /></td>
+      <td><input name="text" type="text" /></td>
+	  <td><input name="text" type="text" /></td>
+      <td><input name="text2" type="text" /></td>
+	   <td><input name="text2" type="text" /></td>
+    </tr>
+  </form>
+  </table>
+  <br>
+  <table>
+  <form>
+<tr>
+<td>Selected Account Number<input name="text2" type="text" /></td>
+</tr>
+</form>
+</table>
+<br>
+<table>
+<form>
+<tr><h3>Schedule date*</h3></tr>
+<tr>
+<td width="144"><input type="radio" name="choose">Pay Now</td>
+<td width="144"><input type="radio" name="choose">Schedule Later</td>
+<td width="144"><input type="radio" name="choose">Standing Instruction</td>
+</tr>
+</form>
+</table>
+
+<p>information and the beneficiary name particulars will not be used therefor. note, as per RBI instructions credit will be effected based solely on the beneficiary account number information and the beneficiary name particulars will not be used therefor.</p>
+
+<form>
+<input type="radio" name="choose">I accept terms and conditions.
+</form>
+<br>
+<form>
+
+<input type="submit" align="center-right">
+</form>
+<br>
+<br>
+<h1 style="color:#333333">Instructions to NEFT Transfer</h1>
+<p>
+National Electronic Funds Transfer (NEFT) is one of the most prominent electronic funds transfer system of India. Started in November 2005,[1] NEFT is a facility provided to bank customers to enable them to transfer funds easily and securely on a one-to-one basis. It is done via electronic messages. This is not on real-time basis like RTGS (Real Time Gross Settlement). This is a "net" transfer facility which is executed in hourly batches resulting in a time lag. NEFT facilities are available in 30,000 bank branches all over the country and work on a batch mode.
+<br>
+RBI explains this scheme as "National Electronic Funds Transfer (NEFT) is a nation-wide payment system facilitating one-to-one funds transfer. Under this Scheme, individuals, firms and corporates can electronically transfer funds from any bank branch to any individual, firm or corporate having an account with any other bank branch in the country participating in the Scheme."
+<br>
+<br>
+<h2 style="color:#333333">Detailed process NEFT is as follows:</h2>
+
+Step-1 : Customer fills an application form providing details of the beneficiary (like name, bank, branch name, IFSC, account type and account number) and the amount to be remitted. The remitter authorizes his/her bank branch to debit his account and remit the specified amount to the beneficiary. This facility is also available through online banking and some banks offer the NEFT facility even through the ATMs.
+<br>
+Step-2 : The originating bank branch prepares a message and sends the message to its pooling centre (also called the NEFT Service Centre).
+<br>
+Step-3 : The pooling centre forwards the message to the NEFT Clearing Centre (operated by National Clearing Cell, Reserve Bank of India, Mumbai) to be included for the next available batch.
+<br>
+Step-4 : The Clearing Centre sorts the funds transfer transactions destination bank-wise and prepares accounting entries to receive funds from the originating banks (debit) and give the funds to the destination banks(credit). Thereafter, bank-wise remittance messages are forwarded to the destination banks through their pooling centre (NEFT Service Centre).
+<br>
+Step-5 : The destination banks receive the inward remittance messages from the Clearing Centre and pass on the credit to the beneficiary customers’ accounts.
+<br>
+</p>
+<h3 style="color:#333333"> Service Charges for NEFT Transactions:</h3>
+<p>
+The structure of charges that can be:
+<br>
+
+a) Inward transactions at destination bank branches (for credit to beneficiary accounts):
+<br>
+*Free, no charges to be collected from beneficiaries
+<br>
+b) Outward transactions at originating bank branches (charges for the remitter):
+<br>
+*For transactions up to ₹10,000 (not exceeding) : ₹2.50 (+ Service Tax)
+<br>
+*For transactions above ₹10,000 up to ₹1 lakh (not exceeding) : ₹5 (+ Service Tax)
+<br>
+*For transactions above ₹1 lakh and up to ₹2 lakhs (not exceeding) : ₹15 (+ Service Tax)
+<br>
+*For transactions above ₹2 lakhs : ₹25 (+ Service Tax)
+<br>
+<h4 style="color:"#333333">Settlement Timings:</h4>
+<p>
+1)Currently, NEFT operates in hourly batches - there are eleven settlements from 9:00 AM to 7:00 PM on week days and five settlements from 10 am to 1 pm on Saturdays.
+<br>
+2)Any transaction initiated after a designated settlement time would have to wait till the next designated settlement time. As of 2013, all transactions initiated before 5 PM will be settled on same day. No transactions are settled on weekly holidays and public holidays.
+<br>
+3)Transaction Timings for NEFT, Monday to Saturday (Except 2nd and 4th Saturday) is 8:00 AM to 6:30 PM.
+<br>
+4) RTGS / NEFT is not allowed on Sundays, second and fourth Saturday of the month and the declared bank holidays for the calendar year National Electronic Funds Transfer (NEFT) is one of the most prominent electronic funds transfer system of India.
+<br>
+ 5)Started in November 2005,[1] NEFT is a facility provided to bank customers to enable them to transfer funds easily and securely on a one-to-one basis. It is done via electronic messages. 
+</p>
+<footer>Copyright &copy; online life bank</footer>
+</div>
+
+</body>
+</html>
+
+
+  
+  
+  
+  
+
+

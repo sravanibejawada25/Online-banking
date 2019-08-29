@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>e_statement</title>
+<link href="newstylesheet.css" rel="stylesheet" type="text/css">
+
+<style>
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>statements</h1>
+   
+</header>
+<nav>
+<div class="clearfix">
+  <div class="column menu">
+  <ul>
+   <li><a href="account.html" target="_top" >account statement</a></li><br>
+<li><a href="pending.html" target="_top">pending statement</a></li><br>
+<li><a href="e_statement.html">e_statement</a></li><br>
+  </ul>
+  </div>
+  </div>
+</nav>
+<article>
+<fieldset>
+ 
+  <h2>registration:</h2>
+  <p>Mandatory fields are marked with an asterisk (*)</p>
+<h1> Select An Account*</h1> 
+<table>
+
+  <form>
+    <tr>
+      <td width="144">Account No*</td>
+      <td width="148">Account Type</td>
+      <td width="151">Branch*</td>
+    </tr>
+    <tr>
+      <td><input name="text" type="text" /></td>
+      <td>
+	  <select>
+	  <option value="select">-select-</option>
+	  <option value="savings account">savings account</option>
+	  <option value="loan account">loan account</option>
+	  <option value="OD">OD</option>
+	  <option value="current account">current account</option>
+	  </select>
+	  </td>
+      <td><input name="text2" type="text" /></td>
+    </tr>
+  </form>
+  </table>
+<h3>Selected Account Number<h3>
+<h2>select the frequency,cycle & day indicator</h2>
+<table>
+<form>
+<td>Frequency <select>
+<option value="select">-select-</option>
+<option value="D-Daily">D-Daily</option>
+<option value="W-Weekly">W-Weekly</option>
+<option value="F-Fortnghtly">F-Fortnghtly</option>
+<option value="M-Monthly">M-Monthly</option>
+<option value="Q-Quaterly">Q-Quaterly</option>
+<option value="Y-Yearly">Y-Yearly</option>
+<option value="H-Half Yearly">H-Half Yearly</option>
+</select></td>
+</form>
+<form>
+<td>cycle <select>
+<option value="select">-select-</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select></td>
+</form>
+<form>
+<td>day indicator <select>
+<option value="select">-select-</option>
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select><td>
+
+
+</form>
+</table>
+<br>
+<br>
+<form>
+<input type="submit"><input type="reset">
+</form>
+
+</fieldset>
+ <div class="con">
+<fieldset>
+<ul>
+<li>Statement will be sent to your email ID registered with the bank.</li>
+<li>Cycle is the month from which the e-Statement will be sent.</li>
+<li>Day Indicator is the date of the month on which e-Statement will be sent. For example, if you have selected frequency "Q" i.e. Quarterly with Cycle and Day Indicator selected as 6 and 10, the first e-Statement will be sent on 10th Day of June. The next statement will be sent on 10th Day of September and likewise.</li>
+<li>Statement will not be generated if there are no transactions performed during the selected cycle.</li>
+<li>In case of Joint account, the primary account holder will be eligible for e-Statement facility. If you are a secondary account holder, you will not receive e-Statement.</li>
+</ul>
+</fieldset>
+</div>
+</article>
+<footer>Copyright &copy; online life bank</footer>
+
+</div>
+
+</body>
+</html>

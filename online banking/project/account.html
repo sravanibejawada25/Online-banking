@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>account statement</title>
+<link href="newstylesheet.css" rel="stylesheet" type="text/css">
+
+
+<style>
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>statements</h1>
+   
+</header>
+<nav>
+  <ul>
+<div class="clearfix">
+  <div class="column menu">
+
+   <li><a href="account.html" target="_top" >account statement</a></li><br>
+<li><a href="pending.html" target="_top">pending statement</a></li><br>
+<li><a href="e_statement.html">e_statement</a></li><br>
+  
+  </div>
+  </div>
+    </ul>
+</nav>
+<article>
+<fieldset>
+ 
+  <h2>Account Statement:</h2>
+  <p>Mandatory fields are marked with an asterisk (*)</p>
+<h1> Select An Account Number*</h1> 
+<table>
+  <form>
+    <tr>
+      <td width="144">Account No*</td>
+      <td width="148">Account Type</td>
+      <td width="151">Branch*</td>
+    </tr>
+    <tr>
+      <td><input name="text" type="text" /></td>
+      <td>
+	  <select>
+	  <option value="select">-select-</option>
+	  <option value="savings account">savings account</option>
+	  <option value="loan account">loan account</option>
+	  <option value="OD">OD</option>
+	  <option value="current account">current account</option>
+	  </select>
+	  </td>
+      <td><input name="text2" type="text" /></td>
+    </tr>
+  </form>
+  </table>
+<h3>Selected Account Number<h3>
+<table>
+
+<tr><th style type:text/css; bcolor:#e6f2ff;>Select options for the statement period* </th></tr>
+<tr><th> If number of transactions for the selected period exceeds 150, Please view/download account statement from the pending statement link under My Accounts tab after some time.</th></tr>
+</table>
+<table>
+<form>
+<tr>
+<td width="144"><input type="radio" name="choose">By Date</td>
+<td width="144"><input type="radio" name="choose">By Month</td>
+<td width="144"><input type="radio" name="choose">Last Six Months</td>
+<td width="144"><input type="radio" name="choose"> FY (PPF Account)</td>
+</tr>
+</form>
+</table>
+<table border:"none">
+<form>
+<tr>
+<td>Start Date [dd/mm/yyyy]*<input type="date" name="bday"></td>
+</tr>
+<tr>
+ <td>End date [dd/mm/yyyy]*<input type="date" name="today"><td>
+ </tr>
+</form>
+</table>
+<h3><b>Select Appropriate Option To View,Print Or Download Statements</b><h3>
+<table>
+<form>
+<tr><input type="radio" name="set">view</tr></br>
+<tr><input type="radio" name="set">Download in MsExcel Format</tr></br>
+<tr><input type="radio" name="set">Download In PDF Format</tr>
+</form>
+</table>
+<br>
+<form>
+Number Of Records Per Page<select>
+<option value="ALL">ALL</option>
+<option value="TWENTY">TWENTY</option>
+<option value="TEN">TEN</option>
+<option value="FIVE">FIVE</option>
+</select>
+</form>
+<br>
+<form>
+<input type="submit" align="center-right">
+</form>
+</fieldset>
+<div class="con">
+<fieldset>
+<ul list-style-background-color:"#d5d9e0">
+<li>Statement prior to April , 2014 is not available online.</li>
+<li>Date range for Account Statement cannot exceed 6 months.</li>
+<li>Please do not share your ATM, Debit/Credit card number, PIN and OTP with anyone over mail, SMS, phone call or any other media. Bank never asks for such information.</li>
+</ul>
+</fieldset>
+</div>
+</article>
+<footer>Copyright &copy; online life bank</footer>
+
+</div>
+
+</body>
+</html>
+
+
+  
+  
+  
+  
+
+
